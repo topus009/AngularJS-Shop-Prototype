@@ -2,7 +2,7 @@
 ... доделываю ...
 ***
 для проверки проделайте следующие шаги:
-1. [скачать проект]()
+1. [скачать проект](https://github.com/topus009/AngularJS-Shop-Prototype/archive/master.zip)
 1. установите http-server через npm `npm http-server -g`
 1. перейдите в корень проекта
 1. введите `http-server`
