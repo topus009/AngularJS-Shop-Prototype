@@ -1,0 +1,219 @@
+/* -------------------------------------------------------------- */
+.red {
+    background-color: red;
+}
+.green {
+    background-color: lightgreen;
+}
+.blue {
+    background-color: lightblue;
+}
+.yellow {
+    background-color: yellow;
+}
+.purple {
+    background-color: pink;
+}
+/* -------------------------------------------------------------- */
+/* ---------------------------- MAIN ---------------------------- */
+.row {
+    margin-right: 0;
+    margin-left: -15px;
+}
+/* ---------------------------- MAIN-end ------------------------ */
+/* ---------------------------- NAV-BAR ------------------------- */
+.container-fluid {
+    padding: 0;
+}
+.container-fluid .navbar-collapse {
+    padding: 0;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.navbar {
+    min-height: 0;
+    margin-bottom: 0;
+}
+.nav-pills li a {
+    border-radius: 0;
+}
+.navbar {
+    border: none;
+}
+/* ---------------------------- NAV-BAR-end ---------------------- */
+/* ---------------------------- HEADER --------------------------- */
+.header_fast {
+    height: 50px;
+}
+.header_logo {
+    height: 50px;
+}
+.logo_block {
+    justify-content: center;
+    display: flex;
+}
+.header_logo {
+    height: 90px;
+}
+.header_now_tel {
+    text-align: center;
+}
+.header_now {
+    font-size: 1.5em;
+}
+.header_tel {
+    font-size: 3em;
+}
+.header_tel_other {
+    font-size: 1.5em;
+    text-align: center;
+}
+.fast_block {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.7em;
+    font-weight: bolder;
+    line-height: 1em;
+    text-align: center;
+}
+/* ---------------------------- HEADER-end ----------------------- */
+/* ---------------------------- PROMO ---------------------------- */
+.promo_first, .promo_second {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.promo_first div, .promo_second div {
+    color: white;
+    font-size: 1.7em;
+    font-weight: bolder;
+    line-height: 1em;
+    text-align: center;
+    margin-right: 25px;
+}
+.promo_first .promo_1, .promo_second .promo_2 {
+    height: 60%;
+}
+.promo_third {
+    height: 100px;
+}
+.promo_third_row_1, .promo_third_row_2 {
+    height: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.promo_third_row_1 {
+    justify-content: center;
+}
+.promo_third_row_2 {
+    justify-content: space-around;
+}
+.promo_third_row_2 div {
+    display: inline-table;
+    vertical-align: middle;
+}
+.promo_third_1 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+.promo_third_3, .promo_third_5, .promo_third_7 {
+    color: yellow;
+    font-size: 2em;
+}
+.promo_third_2, .promo_third_4, .promo_third_6, .promo_third_8 {
+    font-size: 8px;
+}
+/* ---------------------------- FORM-BLOCK ----------------------- */
+.form_block {
+    height: 300px;
+}
+.form_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.form_block .form-group input[type="text"] {
+    margin: 1em 0;
+}
+.form-title {
+    font-size: 1.5em;
+    text-align: center;
+}
+/* ---------------------------- FORM-BLOCK-end ------------------- */
+/* ---------------------------- PROMO-end ------------------------ */
+/* ---------------------------- TAB-LIST ------------------------- */
+.tab-list .nav-pills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* ---------------------------- TAB-LIST-end --------------------- */
+/* ---------------------------- SEARCH --------------------------- */
+.search_block {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.search_block .btn {
+    margin-top: -1px;
+}
+/* ---------------------------- SEARCH-end ----------------------- */
+/* ---------------------------- CHECK-LIST ----------------------- */
+.check-list input[type="checkbox"] {
+    margin-left: 0;
+    left: -10%;
+}
+.check-list .checkbox {
+    left: 10%;
+}
+.price_input_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price_input_block .form-control {
+    width: 90%;
+}
+.check-list .btn_show {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.price_input_block div {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+.price_input_block {
+    padding-bottom: 20px;
+}
+/* ---------------------------- CHECK-LIST-end ------------------- */
+/* ---------------------------- PAGINATION ----------------------- */
+.pagination {
+  display: inline-block;
+}
+.pagination:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.pagination li {
+  cursor: pointer;
+}
+.pagination-wrap {
+  text-align: center;
+}
+/* ---------------------------- PAGINATION-end ------------------- */

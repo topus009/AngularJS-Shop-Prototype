@@ -1,0 +1,23 @@
+<div class="col-sm-6 col-md-4" ng-repeat="x in products">
+    <div class="thumbnail">
+        <img ng-src="{{ x.source }}" alt="...">
+        <div class="caption">
+            <h3>Название: {{ x.id }}</h3>
+            <h4>{{ x.type }}</h4>
+            <p>Цена: {{x.price}} руб.</p>
+            <p>
+                <a href="#" class="btn btn-default" role="button">В корзину</a>
+                <a href="#" class="btn btn-primary" role="button">Купить</a>
+            </p>
+        </div>
+    </div>
+</div>
+<!-- ========================== PAGINATION ================================= -->
+<div class="pagination-wrap">
+    <ul class="pagination">
+        <li ng-repeat="page in paginationList" ng-click="showPage(page.link)" ng-class="{'active': currentPageNum() == page.link}">
+            <a ng-bind-html="page.name"></a>
+        </li>
+    </ul>
+</div>
+<!-- ========================== PAGINATION-end ============================= -->
